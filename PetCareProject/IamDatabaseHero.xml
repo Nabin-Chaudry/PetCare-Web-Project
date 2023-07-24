@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.2.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Jul 24, 2023 at 07:55 PM
+- Server version: 10.4.28-MariaDB
+- PHP Version: 8.2.4
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="clncdb" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="booking">
+                CREATE TABLE `booking` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `fname` varchar(20) NOT NULL,
+                  `date` varchar(9) NOT NULL,
+                  `email` varchar(20) NOT NULL,
+                  `phone` varchar(12) NOT NULL,
+                  `message` varchar(345) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+            </pma:table>
+            <pma:table name="clncpet">
+                CREATE TABLE `clncpet` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `fname` varchar(20) NOT NULL,
+                  `email` varchar(30) NOT NULL,
+                  `pwd` varchar(20) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'clncdb'
+    -->
+    <database name="clncdb">
+        <!-- Table booking -->
+        <table name="booking">
+            <column name="id">1</column>
+            <column name="fname">Nabin Chaudry</column>
+            <column name="date">22072023</column>
+            <column name="email">nabin.clnc@gmail.com</column>
+            <column name="phone">9812697407</column>
+            <column name="message">Visit https://nabin-chaudhary.com.np and web-3: www.nabinchaudhary.blockchain
+</column>
+        </table>
+        <!-- Table clncpet -->
+        <table name="clncpet">
+            <column name="id">1</column>
+            <column name="fname">Nabin Chaudry</column>
+            <column name="email">nabin.clnc@gmail.com</column>
+            <column name="pwd">111</column>
+        </table>
+    </database>
+</pma_xml_export>
