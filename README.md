@@ -8,5 +8,10 @@ Done...
 live demo: https://petcare.nabin-chaudhary.com.np/
 
 Type on your browser: localhost/PetCareProject/
-Demo Default login ID: nabin.clnc@gmail.com
+
+
+
+Demo Default login
+
+ID: nabin.clnc@gmail.com
 Pwd: 111
