@@ -14,4 +14,4 @@ Type on your browser: localhost/PetCareProject/
 Demo Default login
 
 ID: nabin.clnc@gmail.com
-Pwd: 111
+Pass: 111
