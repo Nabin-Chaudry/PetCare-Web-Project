@@ -2,7 +2,7 @@
 HTML, CSS, JS with Database included.
 
 
-Create Database name "clncdb" and then import SQL database file.
+ then import SQL database file.
 Done...
 
 live demo: https://petcare.nabin-chaudhary.com.np/
